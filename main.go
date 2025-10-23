@@ -6,6 +6,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
+	"net/url"
 	"os"
 	"path/filepath"
 	"strings"
@@ -15,7 +16,7 @@ import (
 type FileDetail struct {
 	SubVersion string `json:"sub_version"`
 	Size       int64  `json:"size"`
-	Path       string `json:"path"`
+	Path       string `json:"path"` // 现在存储GitHub Raw链接
 	FileFormat string `json:"file_format"`
 	Illustrate string `json:"illustrate"`
 	Sha256     string `json:"sha256"`
@@ -25,12 +26,19 @@ type FileDetail struct {
 type Manifest struct {
 	API      map[string][]FileDetail `json:"api"`
 	NET      map[string][]FileDetail `json:"net"`
-	Original map[string][]FileDetail `json:"original"`
+	Original map[string][]FileDetail `json:"original"` // 保留字段（未使用）
 }
 
+// GitHub仓库基础配置（请确认仓库地址是否正确）
+const (
+	githubRepoOwner = "jxsm"
+	githubRepoName  = "SCVersionList"
+	githubBranch    = "main"
+)
+
 func main() {
-	// 根目录（请根据实际情况修改）
-	rootDir := `./`
+	// 根目录（相对路径，适配GitHub Actions）
+	rootDir := "./"
 	// 输出清单文件路径
 	outputPath := "manifest.json"
 
@@ -40,15 +48,15 @@ func main() {
 		NET: make(map[string][]FileDetail),
 	}
 
-	// 处理API插件版目录
+	// 处理API目录
 	apiDir := filepath.Join(rootDir, "API")
-	if err := processDir(apiDir, "API插件版", manifest.API, "API"); err != nil {
+	if err := processDir(apiDir, "API", manifest.API, "API"); err != nil {
 		fmt.Printf("处理API目录出错: %v\n", err)
 	}
 
-	// 处理NET联机版目录
+	// 处理NET目录
 	netDir := filepath.Join(rootDir, "NET")
-	if err := processDir(netDir, "NET 联机版", manifest.NET, "NET"); err != nil {
+	if err := processDir(netDir, "NET", manifest.NET, "NET"); err != nil {
 		fmt.Printf("处理NET目录出错: %v\n", err)
 	}
 
@@ -108,14 +116,14 @@ func processDir(dirPath, relativeRoot string, versionMap map[string][]FileDetail
 		ext := filepath.Ext(fileName)
 		fileFormat := strings.TrimPrefix(ext, ".")
 
-		// 构建相对路径
-		relativePath := filepath.Join(relativeRoot, fileName)
+		// 构建GitHub Raw链接（自动URL编码）
+		githubRawURL := buildGitHubRawURL(relativeRoot, fileName)
 
 		// 构建文件详情
 		fileDetail := FileDetail{
 			SubVersion: subVersion,
 			Size:       fileInfo.Size(),
-			Path:       relativePath,
+			Path:       githubRawURL, // 替换为GitHub Raw链接
 			FileFormat: fileFormat,
 			Illustrate: "",
 			Sha256:     sha256Str,
@@ -126,6 +134,28 @@ func processDir(dirPath, relativeRoot string, versionMap map[string][]FileDetail
 	}
 
 	return nil
+}
+
+// 构建GitHub Raw链接
+func buildGitHubRawURL(relativeRoot, fileName string) string {
+	// 拼接相对路径（如 "NET/2.3 NET x24-03-04b7.zip"）
+	relativePath := filepath.Join(relativeRoot, fileName)
+	// 将Windows路径分隔符替换为URL中的斜杠
+	relativePath = strings.ReplaceAll(relativePath, "\\", "/")
+	// URL编码（处理空格、特殊字符）
+	encodedPath := url.QueryEscape(relativePath)
+	// 替换编码后的"+"为"%20"（GitHub Raw链接要求空格编码为%20）
+	encodedPath = strings.ReplaceAll(encodedPath, "+", "%20")
+
+	// 拼接完整GitHub Raw URL
+	// 格式：https://github.com/{owner}/{repo}/raw/{branch}/{encodedPath}
+	return fmt.Sprintf(
+		"https://github.com/%s/%s/raw/%s/%s",
+		githubRepoOwner,
+		githubRepoName,
+		githubBranch,
+		encodedPath,
+	)
 }
 
 // 解析文件名中的主版本和子版本
