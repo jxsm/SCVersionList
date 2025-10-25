@@ -1,129 +1,131 @@
 {
-    "api": {
-        "2.2": [
-            {
-                "sub_version": "API 1.33",
-                "size": 17015912,
-                "path": "https://github.com/jxsm/SCVersionList/raw/main/API%2F2.2%20API%201.33.zip",
-                "file_format": "zip",
-                "illustrate": "",
-                "sha256": "6362534dec315a7611beb3941d83c8f6b6c4f4a04adb9778703b8e8b1cb6d006"
-            }
-        ],
-        "2.3": [
-            {
-                "sub_version": "API 1.53",
-                "size": 24005148,
-                "path": "https://github.com/jxsm/SCVersionList/raw/main/API%2F2.3%20API%201.53.7z",
-                "file_format": "7z",
-                "illustrate": "",
-                "sha256": "9c5042d49cbce22c15640bab03f6cc82a5787fe935ceac13b494a0d877a6616a"
-            },
-            {
-                "sub_version": "API 1.6",
-                "size": 22685136,
-                "path": "https://github.com/jxsm/SCVersionList/raw/main/API%2F2.3%20API%201.6.7z",
-                "file_format": "7z",
-                "illustrate": "",
-                "sha256": "58e68efea62b893836504b7cb4029ebb3cc782319489b9a028bb62d3d2d65f9b"
-            },
-            {
-                "sub_version": "API 1.63",
-                "size": 18099964,
-                "path": "https://github.com/jxsm/SCVersionList/raw/main/API%2F2.3%20API%201.63.7z",
-                "file_format": "7z",
-                "illustrate": "",
-                "sha256": "aa427de1f9af1f497c94b0d4b60863c0ab4cd52728e19d6dd536f61d4e7e2bb4"
-            },
-            {
-                "sub_version": "API 1.71A",
-                "size": 15123309,
-                "path": "https://github.com/jxsm/SCVersionList/raw/main/API%2F2.3%20API%201.71A.zip",
-                "file_format": "zip",
-                "illustrate": "",
-                "sha256": "7878717e53355f1abfe8871d98b76ed7740f1a867a680efe7c15b2e2c9cc7424"
-            },
-            {
-                "sub_version": "API 1.72",
-                "size": 14119376,
-                "path": "https://github.com/jxsm/SCVersionList/raw/main/API%2F2.3%20API%201.72.7z",
-                "file_format": "7z",
-                "illustrate": "",
-                "sha256": "522f71605442bbb694cff9015163ae43cef8587b944466f2a30d377ec005e564"
-            },
-            {
-                "sub_version": "API0 1.44",
-                "size": 15979974,
-                "path": "https://github.com/jxsm/SCVersionList/raw/main/API%2F2.3%20API0%201.44.7z",
-                "file_format": "7z",
-                "illustrate": "",
-                "sha256": "a4e7685a971ea7a702ec92b347da6818d611f8c7803882ed6c0f7ced208617d2"
-            }
-        ],
-        "2.4": [
-            {
-                "sub_version": "API 1.8.1.1",
-                "size": 18190647,
-                "path": "https://github.com/jxsm/SCVersionList/raw/main/API%2F2.4%20API%201.8.1.1.7z",
-                "file_format": "7z",
-                "illustrate": "",
-                "sha256": "95bb9b7cea3475468b67867028bf9449e4ce021130ce372f7d2767eca41aa6fe"
-            },
-            {
-                "sub_version": "API 1.8.1.2",
-                "size": 18196592,
-                "path": "https://github.com/jxsm/SCVersionList/raw/main/API%2F2.4%20API%201.8.1.2.7z",
-                "file_format": "7z",
-                "illustrate": "",
-                "sha256": "9eff212284e94ff40511e6429db50fb768eadc5c621aafdc050a1780f58f00bd"
-            },
-            {
-                "sub_version": "API 1.8.1.3",
-                "size": 19074845,
-                "path": "https://github.com/jxsm/SCVersionList/raw/main/API%2F2.4%20API%201.8.1.3.7z",
-                "file_format": "7z",
-                "illustrate": "",
-                "sha256": "9253ca9f514746cff638e9d80312f8bd29aa983a722b8e3158078b94ffa3a871"
-            },
-            {
-                "sub_version": "API 1.80",
-                "size": 18393446,
-                "path": "https://github.com/jxsm/SCVersionList/raw/main/API%2F2.4%20API%201.80.7z",
-                "file_format": "7z",
-                "illustrate": "",
-                "sha256": "14983682004c47502a839233b14c08230aa6a1186b6f43a95b5f235f87cd9519"
-            }
-        ]
-    },
-    "net": {
-        "2.3": [
-            {
-                "sub_version": "NET x24-03-04b7",
-                "size": 20515183,
-                "path": "https://github.com/jxsm/SCVersionList/raw/main/NET%2F2.3%20NET%20x24-03-04b7.zip",
-                "file_format": "zip",
-                "illustrate": "",
-                "sha256": "bf6542c3067cbc0a7463234e689daa4357f3892bc4adc015ee55115b0f2afe3b"
-            },
-            {
-                "sub_version": "NET x24.03.04b5",
-                "size": 18234279,
-                "path": "https://github.com/jxsm/SCVersionList/raw/main/NET%2F2.3%20NET%20x24.03.04b5.7z",
-                "file_format": "7z",
-                "illustrate": "",
-                "sha256": "108703abddc32d14c429b7afb101e7c7cd14000a9042723467cf7258cbb717af"
-            }
-        ],
-        "2.4": [
-            {
-                "sub_version": "NET x25.01.17",
-                "size": 21458356,
-                "path": "https://github.com/jxsm/SCVersionList/raw/main/NET%2F2.4%20NET%20x25.01.17.zip",
-                "file_format": "zip",
-                "illustrate": "",
-                "sha256": "c98b590081d6a29e4768c6f1185d7fd0b06ba35e6bfdbbda1d064793e42d3982"
-            }
-        ]
-    },
-    "original": null
+  "api": {
+    "2.4": [
+      {
+        "sub_version": "API 1.8.1.3",
+        "size": 19074845,
+        "path": "https://gitee.com/jxsmjxee/SCVersionList/raw/main/API%2F2.4%20API%201.8.1.3.7z",
+        "file_format": "7z",
+        "illustrate": "",
+        "sha256": "9253ca9f514746cff638e9d80312f8bd29aa983a722b8e3158078b94ffa3a871"
+      },
+      {
+        "sub_version": "API 1.8.1.2",
+        "size": 18196592,
+        "path": "https://gitee.com/jxsmjxee/SCVersionList/raw/main/API%2F2.4%20API%201.8.1.2.7z",
+        "file_format": "7z",
+        "illustrate": "",
+        "sha256": "9eff212284e94ff40511e6429db50fb768eadc5c621aafdc050a1780f58f00bd"
+      },
+      {
+        "sub_version": "API 1.8.1.1",
+        "size": 18190647,
+        "path": "https://gitee.com/jxsmjxee/SCVersionList/raw/main/API%2F2.4%20API%201.8.1.1.7z",
+        "file_format": "7z",
+        "illustrate": "",
+        "sha256": "95bb9b7cea3475468b67867028bf9449e4ce021130ce372f7d2767eca41aa6fe"
+      },
+
+      {
+        "sub_version": "API 1.80",
+        "size": 18393446,
+        "path": "https://gitee.com/jxsmjxee/SCVersionList/raw/main/API%2F2.4%20API%201.80.7z",
+        "file_format": "7z",
+        "illustrate": "",
+        "sha256": "14983682004c47502a839233b14c08230aa6a1186b6f43a95b5f235f87cd9519"
+      }
+    ],
+    "2.3": [
+      {
+        "sub_version": "API 1.72",
+        "size": 14119376,
+        "path": "https://gitee.com/jxsmjxee/SCVersionList/raw/main/API%2F2.3%20API%201.72.7z",
+        "file_format": "7z",
+        "illustrate": "",
+        "sha256": "522f71605442bbb694cff9015163ae43cef8587b944466f2a30d377ec005e564"
+      },
+      {
+        "sub_version": "API 1.71A",
+        "size": 15123309,
+        "path": "https://gitee.com/jxsmjxee/SCVersionList/raw/main/API%2F2.3%20API%201.71A.zip",
+        "file_format": "zip",
+        "illustrate": "",
+        "sha256": "7878717e53355f1abfe8871d98b76ed7740f1a867a680efe7c15b2e2c9cc7424"
+      },
+      {
+        "sub_version": "API 1.63",
+        "size": 18099964,
+        "path": "https://gitee.com/jxsmjxee/SCVersionList/raw/main/API%2F2.3%20API%201.63.7z",
+        "file_format": "7z",
+        "illustrate": "",
+        "sha256": "aa427de1f9af1f497c94b0d4b60863c0ab4cd52728e19d6dd536f61d4e7e2bb4"
+      },
+      {
+        "sub_version": "API 1.6",
+        "size": 22685136,
+        "path": "https://gitee.com/jxsmjxee/SCVersionList/raw/main/API%2F2.3%20API%201.6.7z",
+        "file_format": "7z",
+        "illustrate": "",
+        "sha256": "58e68efea62b893836504b7cb4029ebb3cc782319489b9a028bb62d3d2d65f9b"
+      },
+      {
+        "sub_version": "API 1.53",
+        "size": 24005148,
+        "path": "https://gitee.com/jxsmjxee/SCVersionList/raw/main/API%2F2.3%20API%201.53.7z",
+        "file_format": "7z",
+        "illustrate": "",
+        "sha256": "9c5042d49cbce22c15640bab03f6cc82a5787fe935ceac13b494a0d877a6616a"
+      },
+
+      {
+        "sub_version": "API0 1.44",
+        "size": 15979974,
+        "path": "https://gitee.com/jxsmjxee/SCVersionList/raw/main/API%2F2.3%20API0%201.44.7z",
+        "file_format": "7z",
+        "illustrate": "",
+        "sha256": "a4e7685a971ea7a702ec92b347da6818d611f8c7803882ed6c0f7ced208617d2"
+      }
+    ],
+    "2.2": [
+      {
+        "sub_version": "API 1.33",
+        "size": 17015912,
+        "path": "https://gitee.com/jxsmjxee/SCVersionList/raw/main/API%2F2.2%20API%201.33.zip",
+        "file_format": "zip",
+        "illustrate": "",
+        "sha256": "6362534dec315a7611beb3941d83c8f6b6c4f4a04adb9778703b8e8b1cb6d006"
+      }
+    ]
+  },
+  "net": {
+     "2.4": [
+      {
+        "sub_version": "NET x25.01.17",
+        "size": 21458356,
+        "path": "https://gitee.com/jxsmjxee/SCVersionList/raw/main/NET%2F2.4%20NET%20x25.01.17.zip",
+        "file_format": "zip",
+        "illustrate": "",
+        "sha256": "c98b590081d6a29e4768c6f1185d7fd0b06ba35e6bfdbbda1d064793e42d3982"
+      }
+    ],
+    "2.3": [
+      {
+        "sub_version": "NET x24-03-04b7",
+        "size": 20515183,
+        "path": "https://gitee.com/jxsmjxee/SCVersionList/raw/main/NET%2F2.3%20NET%20x24-03-04b7.zip",
+        "file_format": "zip",
+        "illustrate": "",
+        "sha256": "bf6542c3067cbc0a7463234e689daa4357f3892bc4adc015ee55115b0f2afe3b"
+      },
+      {
+        "sub_version": "NET x24.03.04b5",
+        "size": 18234279,
+        "path": "https://gitee.com/jxsmjxee/SCVersionList/raw/main/NET%2F2.3%20NET%20x24.03.04b5.7z",
+        "file_format": "7z",
+        "illustrate": "",
+        "sha256": "108703abddc32d14c429b7afb101e7c7cd14000a9042723467cf7258cbb717af"
+      }
+    ]
+  },
+  "original": {}
 }
