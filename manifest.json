@@ -3,11 +3,11 @@
         "2.31": [
             {
                 "sub_version": "API1.60",
-                "size": 29336392,
+                "size": 29019443,
                 "path": "https://github.com/jxsm/SCVersionList/raw/refs/heads/main/API/%5B%E7%94%B5%E8%84%91%5D%5B%E6%8F%92%E4%BB%B6%5DSCx2.31API1.60.zip",
                 "file_format": "zip",
                 "illustrate": "",
-                "sha256": "827e5174594b8d22da23306ed8da393cf7e856bd67f3bfb98924889494c70449"
+                "sha256": "7d39be82ab6f9a8ea5a8256b489713d78b88cee5018ac632fd660623dccdbac4"
             }
         ],
         "2.4": [
@@ -29,11 +29,11 @@
             },
             {
                 "sub_version": "API1.8",
-                "size": 19950538,
+                "size": 19934980,
                 "path": "https://github.com/jxsm/SCVersionList/raw/refs/heads/main/API/%5B%E7%94%B5%E8%84%91%5D%5B%E6%8F%92%E4%BB%B6%5DSCx2.4API1.8.zip",
                 "file_format": "zip",
                 "illustrate": "",
-                "sha256": "d36b7b12c6d0e949ca2c559a4a62ac47161bdf52ebe66067cb5211dd25963c79"
+                "sha256": "000ac54c02ee020125e570c0d99723f1f4c9f61351d71972c482a9e23a6d2692"
             }
         ],
         "2.3": [
@@ -71,11 +71,11 @@
             },
             {
                 "sub_version": "API1.41",
-                "size": 16700948,
+                "size": 16697570,
                 "path": "https://github.com/jxsm/SCVersionList/raw/refs/heads/main/API/%5B%E7%94%B5%E8%84%91%5D%5B%E6%8F%92%E4%BB%B6%5DSCx2.3API1.41.zip",
                 "file_format": "zip",
                 "illustrate": "",
-                "sha256": "4ede0d8ac42579fc391bc6235964b7e585cb18bdfbf02efc5b9792e8f1101dd2"
+                "sha256": "d8def148bbfdc929f028b1aab53748550b32494af52b157cfb906c203798b0c7"
             }
         ],
         "2.2": [
@@ -91,11 +91,11 @@
         "2.1": [
             {
                 "sub_version": "API1.2",
-                "size": 12592530,
+                "size": 12535564,
                 "path": "https://github.com/jxsm/SCVersionList/raw/refs/heads/main/API/%5B%E7%94%B5%E8%84%91%5D%5B%E6%8F%92%E4%BB%B6%5DSCx2.1API1.2.zip",
                 "file_format": "zip",
                 "illustrate": "",
-                "sha256": "b933753ce708250545c301613101c8819adfc31b6ab3fa34763301ddac6e595e"
+                "sha256": "fc5cfd8afef9528bd61f97ebf843835bf0f40520d8a189bdb1a228ee9afe2a4f"
             }
         ]
     },
@@ -201,11 +201,11 @@
         "2.2": [
             {
                 "sub_version": "Original2.2.40",
-                "size": 13626103,
+                "size": 13564310,
                 "path": "https://github.com/jxsm/SCVersionList/raw/refs/heads/main/Original/%5B%E7%94%B5%E8%84%91%5D%5B%E5%8E%9F%E7%89%88%5DSCx2.2.40.zip",
                 "file_format": "zip",
                 "illustrate": "",
-                "sha256": "11e5b746839c8eb7da579bd1c43c3a027ac3aeb4ccd933c72c35da8d60fbd53c"
+                "sha256": "c70b5aa94717f743858805d41efccf382df8cd6d6e295e1d86dd539e1f121a7f"
             }
         ]
     }
