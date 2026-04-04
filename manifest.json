@@ -12,6 +12,14 @@
         ],
         "2.4": [
             {
+                "sub_version": "API_1.9.0.2",
+                "size": 18951479,
+                "path": "https://github.com/jxsm/SCVersionList/raw/refs/heads/main/API/%5BWindows%5DSurvivalcraftAPI_1.9.0.2.7z",
+                "file_format": "7z",
+                "illustrate": "",
+                "sha256": "1d30a774d0be7e6eee474ae5b5148f9abc1a5c4211ea7d00063077e7244bd59b"
+            },
+            {
                 "sub_version": "API1.8.1.0",
                 "size": 19281043,
                 "path": "https://github.com/jxsm/SCVersionList/raw/refs/heads/main/API/%5B%E7%94%B5%E8%84%91%5D%5B%E6%8F%92%E4%BB%B6%5DSCx2.4API1.8.1.0.zip",
