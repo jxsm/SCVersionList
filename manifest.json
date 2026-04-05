@@ -108,10 +108,10 @@
     ]
   },
   "net": {
-    "Net26": [
+    "26": [
       {
         "sub_version": "NETx26.02.05",
-        "size": "18763842",
+        "size": 18763842,
         "path": "https://github.com/jxsm/SCVersionList/raw/refs/heads/main/NET/%5B%E7%94%B5%E8%84%91%E7%89%88%5DSCNETx26.02.05.zip",
         "file_format": "zip",
         "illustrate": "",
