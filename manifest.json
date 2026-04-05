@@ -108,6 +108,16 @@
         ]
     },
     "net": {
+        "26":[
+            {
+                 "sub_version":"NETx26.02.05",
+                "size":"18763842",
+                "path":"https://github.com/jxsm/SCVersionList/raw/refs/heads/main/NET/%5B%E7%94%B5%E8%84%91%E7%89%88%5DSCNETx26.02.05.zip",
+                "file_format":"zip",
+                "illustrate":"",
+                "sha256":"715b95e481114e70eee073aedfdf59fc9bfbc13684cf157af4792fc8956ae42f"
+            }
+        ]
         "2.5": [
             {
                 "sub_version": "NET2.5.01.17",
